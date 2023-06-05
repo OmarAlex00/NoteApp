@@ -7,7 +7,7 @@ class NoteCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.only(top: 20, left: 20, bottom: 20),
+      padding: const EdgeInsets.only(top: 20, left: 16, bottom: 22, right: 5),
       decoration: BoxDecoration(
           color: Color(0xffFFCD7A), borderRadius: BorderRadius.circular(12)),
       child: Column(
@@ -23,7 +23,7 @@ class NoteCard extends StatelessWidget {
               child: Text(
                 'Build your carrer with Omar Ashraf',
                 style: TextStyle(
-                    color: Colors.black.withOpacity(.4), fontSize: 16),
+                    color: Colors.black.withOpacity(.5), fontSize: 18),
               ),
             ),
             trailing: const Padding(
