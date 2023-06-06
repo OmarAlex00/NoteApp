@@ -9,7 +9,8 @@ class NoteCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(top: 20, left: 16, bottom: 22, right: 5),
       decoration: BoxDecoration(
-          color: Color(0xffFFCD7A), borderRadius: BorderRadius.circular(12)),
+          color: const Color(0xffFFCD7A),
+          borderRadius: BorderRadius.circular(12)),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
@@ -21,7 +22,7 @@ class NoteCard extends StatelessWidget {
             subtitle: Padding(
               padding: const EdgeInsets.symmetric(vertical: 20),
               child: Text(
-                'Build your carrer with Omar Ashraf',
+                'Build your career with Omar Ashraf',
                 style: TextStyle(
                     color: Colors.black.withOpacity(.5), fontSize: 18),
               ),
