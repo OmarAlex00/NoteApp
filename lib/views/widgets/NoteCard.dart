@@ -12,7 +12,7 @@ class NoteCard extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) {
-            return EditNoteScreen();
+            return const EditNoteScreen();
           }),
         );
       },
