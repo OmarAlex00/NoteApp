@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:note_app/views/Screens/Edit_note_screen.dart';
+import 'package:note_app/views/Screens/edit_note_screen.dart';
 
 class NoteCard extends StatelessWidget {
   const NoteCard({super.key});

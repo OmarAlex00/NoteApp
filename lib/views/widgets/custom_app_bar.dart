@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'CustomSearchIcon.dart';
+import 'custom_search_icon.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key, required this.title, required this.icon});
@@ -13,7 +13,7 @@ class CustomAppBar extends StatelessWidget {
           title,
           style: const TextStyle(fontSize: 30),
         ),
-        Spacer(),
+        const Spacer(),
         CustomSearchIcon(icon: icon),
       ],
     );
