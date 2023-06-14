@@ -44,6 +44,7 @@ class _NoteFormState extends State<NoteForm> {
                 formKey.currentState!.save();
               } else {
                 autovalidateMode = AutovalidateMode.always;
+                setState(() {});
               }
             },
           ),
