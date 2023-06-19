@@ -58,7 +58,8 @@ class _NoteFormState extends State<NoteForm> {
                         date: DateFormat('dd/mm/yy ,hh:mm a')
                             .format(DateTime.now())
                             .toString(),
-                        color: Colors.green.value);
+                        color:
+                            BlocProvider.of<AddNoteCubit>(context).color.value);
                     BlocProvider.of<AddNoteCubit>(context).addNote(note);
                   } else {
                     autovalidateMode = AutovalidateMode.always;
