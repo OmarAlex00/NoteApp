@@ -55,7 +55,7 @@ class _NoteFormState extends State<NoteForm> {
                     Note note = Note(
                         title: title!,
                         subTitle: subTitle!,
-                        date: DateFormat('dd/mm/yy ,hh:mm a')
+                        date: DateFormat('dd/MM/yy ,hh:mm a')
                             .format(DateTime.now())
                             .toString(),
                         color:

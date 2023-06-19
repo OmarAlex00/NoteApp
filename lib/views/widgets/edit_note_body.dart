@@ -23,7 +23,7 @@ class _EditNoteBodyState extends State<EditNoteBody> {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(
         children: [
-          const SizedBox(height: 40),
+          const SizedBox(height: 45),
           CustomAppBar(
             title: 'Edit Note',
             icon: Icons.check,
