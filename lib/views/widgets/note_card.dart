@@ -38,11 +38,16 @@ class NoteCard extends StatelessWidget {
                       color: Colors.black.withOpacity(.5), fontSize: 18),
                 ),
               ),
-              trailing: const Padding(
-                padding: EdgeInsets.only(top: 10),
-                child: Icon(
-                  FontAwesomeIcons.trash,
-                  size: 20,
+              trailing: Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: IconButton(
+                  onPressed: () {
+                    note.delete();
+                  },
+                  icon: const Icon(
+                    FontAwesomeIcons.trash,
+                    size: 20,
+                  ),
                 ),
               ),
               iconColor: Colors.black,
